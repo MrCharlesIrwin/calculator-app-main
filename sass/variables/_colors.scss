@@ -1,0 +1,103 @@
+:root {
+  --background-100: hsl(222, 26%, 31%);
+  --background-200: hsl(223, 31%, 20%);
+  --background-300: hsl(224, 36%, 15%);
+  --keyShadow-100: hsl(224, 28%, 35%);
+  --keyShadow-200: hsl(6, 70%, 34%);
+  --keyShadow-300: hsl(28, 16%, 65%);
+  --keyBackground-100: hsl(6, 63%, 50%);
+  --keyBackground-200: hsl(30, 25%, 89%);
+  --keyBackground-300: hsl(225, 21%, 49%);
+  --text-100: hsl(221, 14%, 31%);
+  --text-200: hsl(0, 0%, 100%);
+}
+
+/// Backgrounds
+
+// main background
+$background-100: var(--background-100);
+// toggle background, keypad background
+$background-200: var(--background-200);
+// screen background
+$background-300: var(--background-300);
+
+/// Keys
+
+// key background
+$keyBackground-200: var(--keyBackground-200);
+// key shadow
+$keyBackground-300: var(--keyBackground-300);
+// key background, toggle
+$keyBackground-100: var(--keyBackground-100);
+// key shadow
+$keyShadow-200: var(--keyShadow-200);
+// key background
+$keyBackground-200: var(--keyBackground-200);
+// key shadow
+$keyShadow-300: var(--keyShadow-300);
+
+/// Text
+
+// $VeryDarkGrayishBlue: hsl(221, 14%, 31%);
+$text-200: var(--text-200);
+
+/// !!! THEME 2 !!!
+
+/// Backgrounds
+// main background
+$LightGray: hsl(0, 0%, 90%);
+// toggle background, keypad background
+$GrayishRed: hsl(0, 5%, 81%);
+$VeryLightGray: hsl(0, 0%, 93%);
+
+/// Keys
+
+// key background
+$DarkModerateCyan: hsl(185, 42%, 37%);
+// key shadow
+$VeryDarkCyan: hsl(185, 58%, 25%);
+// key background, toggle
+$Orange: hsl(25, 98%, 40%);
+// key shadow
+$DarkOrange: hsl(25, 99%, 27%);
+// key background
+$LightGrayishYellow: hsl(45, 7%, 89%);
+// key shadow
+$DarkGrayishOrange: hsl(35, 11%, 61%);
+
+/// Text
+
+$VeryDarkGrayishYellow: hsl(60, 10%, 19%);
+// Text
+$White: hsl(0, 0%, 100%);
+
+/// !!! THEME 3 !!!
+
+/// Backgrounds
+
+// main background
+$VeryDarkViolet: hsl(268, 75%, 9%);
+// toggle background, keypad background, screen background
+$VeryDarkViolet: hsl(268, 71%, 12%);
+
+/// Keys
+
+// key background
+$DarkViolet: hsl(281, 89%, 26%);
+// key shadow
+$VividMagenta: hsl(285, 91%, 52%);
+// key background, toggle
+$PureCyan: hsl(176, 100%, 44%);
+// key shadow
+$SoftCyan: hsl(177, 92%, 70%);
+// key background
+$VeryDarkViolet: hsl(268, 47%, 21%);
+// key shadow
+$DarkMagenta: hsl(290, 70%, 36%);
+
+/// Text
+
+$LightYellow: hsl(52, 100%, 62%);
+$VeryDarkBlue: hsl(198, 20%, 13%);
+// text
+$White: hsl(0, 0%, 100%);

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Calculator app</title>
+
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body class="body">
+    <main class="main">
+      <section class="themeSwitcher-wrapper">
+        <h1>calc</h1>
+        <div>
+          <div class="themeSwitcher-wrapper__themeSwitcher">
+            <label for="firstState">1 </label>
+            <label for="secondState">2 </label>
+            <label for="thirdState"> 3</label>
+            <input type="radio" name="radio" class="radioButtons" id="firstState" checked ="checked" />
+            <input type="radio" name="radio" class="radioButtons" id="secondState" />
+            <input type="radio" name="radio" class="radioButtons" id="thirdState" />
+            <div class="themeSwitcher-wrapper__themeSwitcher__switcher"><div class="switcher-circle"></div></div>
+          </div>
+        </div>
+      </section>
+      <section class="output">
+        <p>0</p>
+      </section>
+      
+      <section class="buttons">
+        <div class="buttons__generalButton button">7</div>
+        <div class="buttons__generalButton button">8</div>
+        <div class="buttons__generalButton button">9</div>
+        <div class="buttons__delResetButton buttons__generalButton delbutton">del</div>
+        <div class="buttons__generalButton button" >4</div>
+        <div class="buttons__generalButton button">5</div>
+        <div class="buttons__generalButton button">6</div>
+        <div class="buttons__generalButton button">+</div>
+        <div class="buttons__generalButton button">1</div>
+        <div class="buttons__generalButton button">2</div>
+        <div class="buttons__generalButton button">3</div>
+        <div class="buttons__generalButton button">-</div>
+        <div class="buttons__generalButton button">.</div>
+        <div class="buttons__generalButton button">0</div>
+        <div class="buttons__generalButton button">/</div>
+        <div class="buttons__generalButton button">x</div>
+        <div class="buttons__delResetButton buttons__generalButton buttons__resetButton">reset</div>
+        <div class="buttons__equalsButton">=</div>
+      </section>
+    </main>
+  </body>
+</html>
